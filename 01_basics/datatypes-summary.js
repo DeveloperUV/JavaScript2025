@@ -28,5 +28,40 @@ const heros = ["shaktiman", "naagraj", "doga"]
     
  }
 
- console.log(typeof bigNumber);
+//  console.log(typeof bigNumber);
+
+
+
+ //*****************************************
+
+ // Stack Memory(Primitive), Heap Memory (Non Primitive)
+
+
+ let myYoutubeName = "UtkarshTechie"
+
+ let anotherName = myYoutubeName
+
+ anotherName = "chaiaurcode"
+
+ console.log(anotherName);
+
+ console.log(myYoutubeName);
+
+ let userOne = {
+   email: "user@googlecom",
+   upi: "dingdong@hdfcbank"
+
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "Utkarsh@google.com"
+console.log(userOne.email)
+
+console.log(userTwo.email);
+
+
+ 
+
+ 
  
